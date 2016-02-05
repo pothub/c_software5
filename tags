@@ -1,0 +1,186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddFormal	cross.c	/^void AddFormal(int token, Id_c **id){$/;"	f
+AddIdName	cross.c	/^void AddIdName(char *name,int ispara, int top_next, Id_c **id){$/;"	f
+AddIdType	cross.c	/^void AddIdType(int token, Id_c **id){$/;"	f
+AddOperator	pripri.c	/^int AddOperator(){$/;"	f
+ArrayType	pripri.c	/^int ArrayType(){$/;"	f
+AssignmentSentence	pripri.c	/^int AssignmentSentence(){$/;"	f
+COMPILER_H_	compiler.h	2;"	d
+CROSS_H_	cross.h	2;"	d
+CallSentence	pripri.c	/^int CallSentence(){$/;"	f
+CompareID	cross.c	/^void CompareID(Id_c **id){$/;"	f
+CompileOutputLine	compiler.c	/^void CompileOutputLine(){$/;"	f
+CompilePrint	compiler.c	/^void CompilePrint(char *str){$/;"	f
+Compiler	pripri.c	13;"	d	file:
+CompositeSentence	pripri.c	/^int CompositeSentence(int begin_tab){$/;"	f
+Constant	pripri.c	/^int Constant(){$/;"	f
+CreateLine	cross.c	/^Line_c *CreateLine(int reflinenum){$/;"	f
+DivergencySentence	pripri.c	/^int DivergencySentence(){$/;"	f
+FILE	Makefile	/^FILE = sample\/sample11pp.mpl$/;"	m
+Factor	pripri.c	/^int Factor(){$/;"	f
+Fomula	pripri.c	/^int Fomula(){$/;"	f
+FomulaSequence	pripri.c	/^int FomulaSequence(){$/;"	f
+FormalArgument	pripri.c	/^int FormalArgument(){$/;"	f
+FreeProcName	cross.c	/^void FreeProcName(){$/;"	f
+Head_Name_Num	cross.c	/^int Head_Name_Num = 0, Last_Name_Num = 0;$/;"	v
+ID	cross.h	/^typedef struct ID {$/;"	s
+Id_c	cross.h	/^} Id_c;$/;"	t	typeref:struct:ID
+InputSentence	pripri.c	/^int InputSentence(){$/;"	f
+KEY	scan.h	/^extern struct KEY {$/;"	s
+KEYWORDSIZE	scan.h	64;"	d
+Kou	pripri.c	/^int Kou(){$/;"	f
+LINE	cross.h	/^typedef struct LINE {$/;"	s
+Last_Name_Num	cross.c	/^int Head_Name_Num = 0, Last_Name_Num = 0;$/;"	v
+Line_c	cross.h	/^} Line_c;$/;"	t	typeref:struct:LINE
+LoopSentence	pripri.c	/^int LoopSentence(){$/;"	f
+MAXSTRSIZE	scan.h	8;"	d
+MultiplOperator	pripri.c	/^int MultiplOperator(){$/;"	f
+NEX	cross.h	14;"	d
+NUMOFTOKEN	scan.h	60;"	d
+NomalFlag	pripri.c	/^int NomalFlag = 0;$/;"	v
+NomalType	pripri.c	/^int NomalType(){$/;"	f
+OBJ	Makefile	/^OBJ 	= main.o scan.o pripri.o cross.o compiler.o$/;"	m
+OutputSentence	pripri.c	/^int OutputSentence(){$/;"	f
+OutputSpecification	pripri.c	/^int OutputSpecification(){$/;"	f
+PRIPRI_H_	pripri.h	2;"	d
+PROGRAM	Makefile	/^PROGRAM	= out$/;"	m
+P_FAIL	pripri.c	10;"	d	file:
+P_SUCCESS	pripri.c	9;"	d	file:
+PrintId	cross.c	/^void PrintId(Id_c *id){$/;"	f
+PrintIdList	cross.c	/^void PrintIdList(Id_c *id){$/;"	f
+PrintIdName	cross.c	/^void PrintIdName(Id_c *id){\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/$/;"	f
+PrintIdRef	cross.c	/^void PrintIdRef(Id_c *id){$/;"	f
+PrintIdType	cross.c	/^void PrintIdType(Id_c *id){$/;"	f
+PrittyPrint	pripri.c	/^void PrittyPrint(int PPtoken, int NextLine, int StartWord){$/;"	f
+PrittyPrint_debag	pripri.c	12;"	d	file:
+ProcFlag	pripri.c	/^int ProcFlag = 0;$/;"	v
+RelationalOperator	pripri.c	/^int RelationalOperator(){$/;"	f
+RemoveGrobalId	cross.c	/^void RemoveGrobalId(){$/;"	f
+SCAN_H_	scan.h	4;"	d
+SIGNSIZE	scan.h	65;"	d
+Sentence	pripri.c	/^int Sentence(){$/;"	f
+SetFormalNum_t	cross.c	/^void SetFormalNum_t(){$/;"	f
+SetProcName	cross.c	/^void SetProcName(){$/;"	f
+SetProcNum	cross.c	/^int SetProcNum = 0;$/;"	v
+SimplicityFomula	pripri.c	/^int SimplicityFomula(){$/;"	f
+SubProgram	pripri.c	/^int SubProgram(){$/;"	f
+TAND	scan.h	29;"	d
+TARRAY	scan.h	14;"	d
+TASSIGN	scan.h	52;"	d
+TBEGIN	scan.h	16;"	d
+TBOOLEAN	scan.h	32;"	d
+TCALL	scan.h	23;"	d
+TCHAR	scan.h	30;"	d
+TCOLON	scan.h	55;"	d
+TCOMMA	scan.h	54;"	d
+TDIV	scan.h	28;"	d
+TDO	scan.h	25;"	d
+TDOT	scan.h	53;"	d
+TELSE	scan.h	20;"	d
+TEND	scan.h	17;"	d
+TEQUAL	scan.h	42;"	d
+TFALSE	scan.h	36;"	d
+TGR	scan.h	46;"	d
+TGREQ	scan.h	47;"	d
+TIF	scan.h	18;"	d
+TINTEGER	scan.h	31;"	d
+TLE	scan.h	44;"	d
+TLEEQ	scan.h	45;"	d
+TLPAREN	scan.h	48;"	d
+TLSQPAREN	scan.h	50;"	d
+TMINUS	scan.h	40;"	d
+TNAME	scan.h	11;"	d
+TNOT	scan.h	26;"	d
+TNOTEQ	scan.h	43;"	d
+TNUMBER	scan.h	37;"	d
+TOF	scan.h	15;"	d
+TOP	cross.h	13;"	d
+TOR	scan.h	27;"	d
+TPARRAY	cross.h	7;"	d
+TPARRAYBOOL	cross.h	10;"	d
+TPARRAYCHAR	cross.h	9;"	d
+TPARRAYINT	cross.h	8;"	d
+TPBOOL	cross.h	6;"	d
+TPCHAR	cross.h	5;"	d
+TPINT	cross.h	4;"	d
+TPLUS	scan.h	39;"	d
+TPPROC	cross.h	11;"	d
+TPROCEDURE	scan.h	21;"	d
+TPROGRAM	scan.h	12;"	d
+TREAD	scan.h	57;"	d
+TREADLN	scan.h	33;"	d
+TRETURN	scan.h	22;"	d
+TRPAREN	scan.h	49;"	d
+TRSQPAREN	scan.h	51;"	d
+TSEMI	scan.h	56;"	d
+TSTAR	scan.h	41;"	d
+TSTRING	scan.h	38;"	d
+TTHEN	scan.h	19;"	d
+TTRUE	scan.h	35;"	d
+TVAR	scan.h	13;"	d
+TWHILE	scan.h	24;"	d
+TWRITE	scan.h	58;"	d
+TWRITELN	scan.h	34;"	d
+TYPE	cross.h	/^typedef struct TYPE {$/;"	s
+Type	pripri.c	/^int Type(){$/;"	f
+Type_c	cross.h	/^} Type_c;$/;"	t	typeref:struct:TYPE
+ValiableDeclaration	pripri.c	/^int ValiableDeclaration(){$/;"	f
+ValiableSequence	pripri.c	/^int ValiableSequence(int top){$/;"	f
+Value	pripri.c	/^int Value(int top){$/;"	f
+_CompareID	cross.c	/^int _CompareID(Id_c **id){$/;"	f
+_PrintIdType	cross.c	/^void _PrintIdType(char *str, Type_c *itp){$/;"	f
+__CompareID	cross.c	/^int __CompareID(Id_c **id){$/;"	f
+arraysize	cross.h	/^	int arraysize;	\/* size of array,if TPARRAY *\/$/;"	m	struct:TYPE
+block	pripri.c	/^int block(){$/;"	f
+c_error	cross.c	/^void c_error(char *mes){$/;"	f
+csl_fp	compiler.c	/^FILE *csl_fp;$/;"	v
+deflinenum	cross.h	/^	int deflinenum;$/;"	m	struct:ID
+end_scan	scan.c	/^void end_scan(){$/;"	f
+error_scan	scan.c	/^void error_scan(char *message){$/;"	f
+etp	cross.h	/^	struct TYPE *etp;	\/* pointer to element type if TPARRAY *\/$/;"	m	struct:TYPE	typeref:struct:TYPE::TYPE
+fp	scan.h	/^static FILE *fp;$/;"	v
+get_linenum	scan.c	/^int get_linenum(){$/;"	f
+globalidroot	cross.c	/^Id_c *globalidroot;$/;"	v
+initCompiler	compiler.c	/^int initCompiler(char *mplname){$/;"	f
+init_cross	cross.c	/^void init_cross(){$/;"	f
+init_scan	scan.c	/^int init_scan(char *filename){$/;"	f
+irefp	cross.h	/^	struct LINE *irefp;$/;"	m	struct:ID	typeref:struct:ID::LINE
+ispara	cross.h	/^	int ispara;		\/* 1:fomal parameter,0:else *\/$/;"	m	struct:ID
+itp	cross.h	/^	struct TYPE *itp;$/;"	m	struct:ID	typeref:struct:ID::TYPE
+key	scan.c	/^struct KEY key[KEYWORDSIZE] = {$/;"	v	typeref:struct:KEY
+key	scan.h	/^struct KEY key[KEYWORDSIZE];$/;"	v	typeref:struct:KEY
+keytoken	scan.h	/^	int keytoken;$/;"	m	struct:KEY
+keyword	scan.h	/^	char * keyword;$/;"	m	struct:KEY
+linenum	scan.c	/^int linenum=0,token_num=0;$/;"	v
+main	main.c	/^int main(int nc, char *np[]) {$/;"	f
+name	cross.h	/^	char *name;$/;"	m	struct:ID
+nextlinep	cross.h	/^	struct LINE *nextlinep;$/;"	m	struct:LINE	typeref:struct:LINE::LINE
+nextp	cross.h	/^	struct ID *nextp;$/;"	m	struct:ID	typeref:struct:ID::ID
+num_attr	scan.c	/^int num_attr;$/;"	v
+numtoken	scan.c	/^int numtoken[NUMOFTOKEN+1];$/;"	v
+once_enter	pripri.c	/^void once_enter(){$/;"	f
+once_enter_t	pripri.c	/^static int tabnum = 0, once_enter_t = 0;$/;"	v	file:
+p_error	pripri.c	/^int p_error(char *mes){$/;"	f
+p_program	pripri.c	/^int p_program(){$/;"	f
+paratp	cross.h	/^	struct TYPE *paratp;	\/* pointer to parameter's type list if ttype is TPPROC *\/$/;"	m	struct:TYPE	typeref:struct:TYPE::TYPE
+prase	pripri.c	/^int prase(){$/;"	f
+pre_token2	pripri.c	/^int pre_token2 = 0;$/;"	v
+procname	cross.h	/^	char *procname;	\/* procedure name which this name is defined *\/ \/* NULL is global name *\/$/;"	m	struct:ID
+procname_t	cross.c	/^char *procname_t;$/;"	v
+reflinenum	cross.h	/^	int reflinenum;$/;"	m	struct:LINE
+scan	scan.c	/^int scan(){$/;"	f
+signs	scan.c	/^struct KEY signs[SIGNSIZE] = {$/;"	v	typeref:struct:KEY
+signs	scan.h	/^struct KEY signs[SIGNSIZE];$/;"	v	typeref:struct:KEY
+sprintParatp	cross.c	/^void sprintParatp(char *str, Id_c *id){$/;"	f
+str_c	compiler.c	/^char str_c[MAXSTRSIZE*2];$/;"	v
+str_c	pripri.c	/^char str_c[MAXSTRSIZE];$/;"	v
+string_attr	scan.c	/^char string_attr[MAXSTRSIZE];$/;"	v
+tabnum	pripri.c	/^static int tabnum = 0, once_enter_t = 0;$/;"	v	file:
+token	pripri.c	/^int token = 0;$/;"	v
+token_num	scan.c	/^int linenum=0,token_num=0;$/;"	v
+ttype	cross.h	/^	int ttype;		\/* TPINT TPCHAR TPARRAY TPARRAYINT TPARRAYCHAR TPARRAYBOOL TPPROC *\/$/;"	m	struct:TYPE
